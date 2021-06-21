@@ -6,7 +6,7 @@ filetype plugin on
 
 " ================ General Config ====================
 
-set number                      "Use line numbers.d
+set number                      "Use line numbers
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Set how much :cmdline history to store
 set showcmd                     "Show incomplete cmds at the bottom
