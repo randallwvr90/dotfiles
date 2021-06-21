@@ -4,3 +4,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # https://geoff.greer.fm/lscolors/
 export LSCOLORS="Gxfxcxdxbxegedabagacad"
 alias ls='ls -GH'       # <-----This shows in list format, follow symlinks colorized
+export GOPATH=$HOME/gopath
+export PATH=$GOPATH:$GOPATH/bin:$PATH
+export PATH="/Users/randyweaver/go/bin:$PATH"
