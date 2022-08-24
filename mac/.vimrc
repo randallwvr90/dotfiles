@@ -6,14 +6,14 @@ filetype plugin on
 
 " ================ General Config ====================
 
-set number                      "Use line numbers.d
+set number                      "Use line numbers
 set backspace=indent,eol,start  "Allow backspace in insert mode
 set history=1000                "Set how much :cmdline history to store
 set showcmd                     "Show incomplete cmds at the bottom
 set showmode                    "Show current mode at the bottom
 set gcr=a:blinkon0              "Disable cursor blink
-set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+set belloff=all                 "Turn off visual bell and audio bell
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.
