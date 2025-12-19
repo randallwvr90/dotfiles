@@ -1,0 +1,62 @@
+# macOS specific ignores
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# macOS user folders
+.Spotlight-V100
+.Trashes
+.DocumentRevisions-V100
+.fseventsd
+
+# macOS system files
+*.swp
+*.swo
+*.tmp
+
+# Windows specific ignores
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Windows shortcuts and temporary files
+~$*
+*.tmp
+*.bak
+
+# General temporary and log files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Backup files
+*.bak
+*.old
+*.orig
+
+# VS Code settings directory
+.vscode/
+.history/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Node and dependency directories (comment out if not needed)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Miscellaneous
+*.local
+*.swp
+*~
